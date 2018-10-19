@@ -4,11 +4,9 @@ By **Derek Shin**
 
 October 2018
 
-* * *
+### Introduction
 
-#### Motivation
-
-The main European soccer dataset is from [https://www.kaggle.com/hugomathien/soccer/home], and the supplementary dataset that includes the goal type is from [https://www.kaggle.com/jiezi2004/soccer/home].
+The main European soccer dataset is from https://www.kaggle.com/hugomathien/soccer/home, and the supplementary dataset that includes the goal type is from https://www.kaggle.com/jiezi2004/soccer/home.
 
 The dataset covers the seasons from 2008 to 2016 (from the 2008/09 season to the 2015/16 season).<br>
 The goals are just for the domestic league matches.
@@ -16,36 +14,30 @@ The goals are just for the domestic league matches.
 Question 1: Who scores most of their goals through penalty kicks?<br>
 Question 2: When are the goals scored?
 
-* * *
-
-#### Motivation
+### Motivation
 Soccer is a sport that doesn't allow many points, or goals. That's why the fans clap for a hard tackle, which turns out to be a foul, and cheer for a long pass across the field that may or may not push the play forward. That's why the players get high-fives from their teammates after hitting a goal post with their shots and the goalkeepers yell at their defenders even after looking at a shot go way above his head -- it just shouldn't even be close.
 
-And there is penalty kick. It's the easiest, most certain way to score a goal. You place the ball 12 yards away from the goal line and smash it past the goalkeeper standing in front of a rectangular goal that is 24 feet wide and 8 feet high. Scoring a penalty kick ([83.4%](http://www.myfootballfacts.com/Premier_League_Penalty_Statistics.html) for the Premier League from 92/93 to 17/18) is a bit easier than making a free throw ([76.7%](https://www.basketball-reference.com/leagues/NBA_stats.html) in the 2017/18 NBA regular season) and a little harder than converting the extra-point kick after a touchdown ([94%](http://www.espn.com/nfl/statistics/team/_/stat/kicking/sort/extraPointPct/position/defense/year/2017) in the 2017 NFL regular season). But a penalty kick is not 1 point out of a hundred in a basketball game or 1/7 of an actual goal (touchdown) in American football——it often changes the outcome of a soccer match. So, if you are taking a penalty kick, you have to score.
+And there is penalty kick. It's the easiest, most certain way to score a goal. You place the ball 12 yards away from the goal line and smash it past the goalkeeper standing in front of a rectangular goal that is 24 feet wide and 8 feet high. Scoring a penalty kick ([83.4%](http://www.myfootballfacts.com/Premier_League_Penalty_Statistics.html) for the Premier League from 92/93 to 17/18) is a bit easier than making a free throw ([76.7%](https://www.basketball-reference.com/leagues/NBA_stats.html) in the 2017/18 NBA regular season) and a little harder than converting the extra-point kick after a touchdown ([94%](http://www.espn.com/nfl/statistics/team/_/stat/kicking/sort/extraPointPct/position/defense/year/2017) in the 2017 NFL regular season). But a penalty kick is not 1 point out of a hundred in a basketball game or 1/7 of an actual goal (touchdown) in American football––it often changes the outcome of a soccer match. So, if you are taking a penalty kick, you have to score.
 
 I've noticed some unlikely penalty kick takers, such as James Milner for Liverpool and, before, Leighton Baines for Everton. They must have practiced a lot after their training sessions and proven their skills, but I was surprised nontheless because they are not prolific strikers or attacking midfielders who score 10+ goals every season and possess amazing kicking abilities like Steven Gerrard or Frank Lampard.
 
 So, I wanted to see who scored most of their goals through penalty kicks––the players who would have much lower goal tallies if they weren't the designated penalty kick takers for their clubs but honed their crafts and left their marks.
 
-* * *
+### Conclusion
 
-#### Conclusion
-
-**Things I learned from answering question 1**
+**Things I learned from answering question 1:**
 - Penalty kick goals are rare: 7.9% of all goals.
 - Some teams don't even score one for the entire season, while some score 13. The average is 3.8 penalty kicks per team, per season.
 - Defenders and non-offensive midfielders score most of their goals via penalty kicks: Fabinho, Siqueira, Verhaegh, Murphy.
 - Filip Daems (1 normal goal, 12 pk) and Paul Verhaegh (2 normal goals, 14 pk) were the best ones in this category.
 - The target strikers who might not be the best penalty kick takers, such as Mario Gomez (100 normal goals, 6 pk), Stefan Kiessling (102 normal goals, 7 pk), and Fernando Llorente (86 normal goals, 6 pk) were at the bottom of the list.
 
-**Things I learned from answering question 2**
+**Things I learned from answering question 2:**
 - More goals are scored as the matches go on: the goal totals and the time they were scored have a ~0.85 correlation.
 - Much less goals (about half less than any other minutes) are scored on the 1st and 46th minutes of the matches.
-- Relative proportion of penalty kick goals are higher than that of normal goals in the second half. (24:20)
+- Relative proportion of penalty kick goals are higher than that of normal goals in the second half.
 
-* * *
-
-#### Sources that helped me
+### Sources that helped me
 
 **Stack Overflow**
 - [Select rows from a DataFrame based on values in a column in pandas](https://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas)
