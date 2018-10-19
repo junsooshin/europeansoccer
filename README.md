@@ -27,7 +27,7 @@ So, I wanted to see who scored most of their goals through penalty kicks––th
 
 ## Conclusion
 
-**1. Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16**
+**1. Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16** <br>
 ![Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16](./top_10_penalty_proportions.png "Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16")
 
 **2. Goal distribution by minute**
