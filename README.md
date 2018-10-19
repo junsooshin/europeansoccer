@@ -1,10 +1,12 @@
 # European Soccer Goal Data Exploration
 
-By **Derek Shin**
+Check out the [Jupyter Notebook](https://github.com/junsooshin/europeansoccer/blob/master/soccer.ipynb)
+
+By Derek Shin
 
 October 2018
 
-### Introduction
+## Introduction
 
 The main European soccer dataset is from https://www.kaggle.com/hugomathien/soccer/home, and the supplementary dataset that includes the goal type is from https://www.kaggle.com/jiezi2004/soccer/home.
 
@@ -14,7 +16,7 @@ The goals are just for the domestic league matches.
 Question 1: Who scores most of their goals through penalty kicks?<br>
 Question 2: When are the goals scored?
 
-### Motivation
+## Motivation
 Soccer is a sport that doesn't allow many points, or goals. That's why the fans clap for a hard tackle, which turns out to be a foul, and cheer for a long pass across the field that may or may not push the play forward. That's why the players get high-fives from their teammates after hitting a goal post with their shots and the goalkeepers yell at their defenders even after looking at a shot go way above his head -- it just shouldn't even be close.
 
 And there is penalty kick. It's the easiest, most certain way to score a goal. You place the ball 12 yards away from the goal line and smash it past the goalkeeper standing in front of a rectangular goal that is 24 feet wide and 8 feet high. Scoring a penalty kick ([83.4%](http://www.myfootballfacts.com/Premier_League_Penalty_Statistics.html) for the Premier League from 92/93 to 17/18) is a bit easier than making a free throw ([76.7%](https://www.basketball-reference.com/leagues/NBA_stats.html) in the 2017/18 NBA regular season) and a little harder than converting the extra-point kick after a touchdown ([94%](http://www.espn.com/nfl/statistics/team/_/stat/kicking/sort/extraPointPct/position/defense/year/2017) in the 2017 NFL regular season). But a penalty kick is not 1 point out of a hundred in a basketball game or 1/7 of an actual goal (touchdown) in American football––it often changes the outcome of a soccer match. So, if you are taking a penalty kick, you have to score.
@@ -23,7 +25,7 @@ I've noticed some unlikely penalty kick takers, such as James Milner for Liverpo
 
 So, I wanted to see who scored most of their goals through penalty kicks––the players who would have much lower goal tallies if they weren't the designated penalty kick takers for their clubs but honed their crafts and left their marks.
 
-### Conclusion
+## Conclusion
 
 **Things I learned from answering question 1:**
 - Penalty kick goals are rare: 7.9% of all goals.
@@ -37,7 +39,7 @@ So, I wanted to see who scored most of their goals through penalty kicks––th
 - Much less goals (about half less than any other minutes) are scored on the 1st and 46th minutes of the matches.
 - Relative proportion of penalty kick goals are higher than that of normal goals in the second half.
 
-### Sources that helped me
+## Sources that helped me
 
 **Stack Overflow**
 - [Select rows from a DataFrame based on values in a column in pandas](https://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas)
