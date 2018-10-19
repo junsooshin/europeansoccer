@@ -27,11 +27,11 @@ So, I wanted to see who scored most of their goals through penalty kicks––th
 
 ## Conclusion
 
-**Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16**
-![Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16](./Top\ 10\ Penalty\ Proportions.png "Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16")
+**1. Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16**
+![Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16](./top_10_penalty_proportions.png "Top 10 Players with highest penalty kick goals to normal goals ratios from 08/09 to 15/16")
 
-**Goal distribution by minute**
-![When are the goals scored? (disregarding 45+ and 90+ minutes)](./goaltime.png "When are the goals scored? (disregarding 45+ and 90+ minutes)")
+**2. Goal distribution by minute**
+![When are the goals scored? (disregarding 45+ and 90+ minutes)](./goal_time.png "When are the goals scored? (disregarding 45+ and 90+ minutes)")
 
 
 **Things I learned from answering question 1:**
