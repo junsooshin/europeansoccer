@@ -13,8 +13,8 @@ The main European soccer dataset is from https://www.kaggle.com/hugomathien/socc
 The dataset covers the seasons from 2008 to 2016 (from the 2008/09 season to the 2015/16 season).<br>
 The goals are just for the domestic league matches.
 
-Question 1: Who scores most of their goals through penalty kicks?<br>
-Question 2: When are the goals scored?
+**Question 1:** Who scores most of their goals through penalty kicks?<br>
+**Question 2:** When are the goals scored?
 
 ## Motivation
 Soccer is a sport that doesn't allow many points, or goals. That's why the fans clap for a hard tackle, which turns out to be a foul, and cheer for a long pass across the field that may or may not push the play forward. That's why the players get high-fives from their teammates after hitting a goal post with their shots and the goalkeepers yell at their defenders even after looking at a shot go way above his head––it just shouldn't even be close.
